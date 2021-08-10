@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container div
+{
+    min-width: 300px;
+    min-height: 50px;
+}
+
+input
+{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 3px;
+    padding: 15px;
+    background-color: #FBFDF9;
+    border-radius: 5px;
+}
+
+input[type="text"]
+{
+    width: 248px;
+    height: 80px;
+    cursor: default;
+}
+
+input[type="text"]:focus
+{
+    outline: none;
+}
