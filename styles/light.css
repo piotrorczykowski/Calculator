@@ -7,7 +7,7 @@
 
 body
 {
-    background-color: #7EAFE7;
+    background-color: #2A7BD6;
 }
 
 #title
@@ -58,7 +58,7 @@ input[type="button"]
 input[type="button"]:hover
 {
     cursor: pointer;
-    background-color: #184981;
+    background-color: #0E4481;
     color: #FFFFFF;
 }
 
@@ -69,6 +69,6 @@ input[type="text"]:focus
 
 input[value="C"]
 {
-    background-color: #0B223D;
+    background-color: #07305F;
     color: #FFFFFF;
 }
