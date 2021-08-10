@@ -7,12 +7,13 @@
 
 body
 {
-    background-color: #69A2E2;
+    background-color: #7EAFE7;
 }
 
 #title
 {
-    color: #FBFDF9;
+    color: #FFFFFF;
+    cursor: default;
 }
 
 #container
@@ -37,7 +38,7 @@ input
     height: 80px;
     margin-bottom: 3px;
     padding: 15px;
-    background-color: #FBFDF9;
+    background-color: #FFFFFF;
     border-radius: 5px;
     font-size: 20px;
 }
@@ -57,8 +58,8 @@ input[type="button"]
 input[type="button"]:hover
 {
     cursor: pointer;
-    background-color: #143D6B;
-    color: #FBFDF9;
+    background-color: #184981;
+    color: #FFFFFF;
 }
 
 input[type="text"]:focus
@@ -68,6 +69,6 @@ input[type="text"]:focus
 
 input[value="C"]
 {
-    background-color: #0A1F37;
-    color: #FBFDF9;
+    background-color: #0B223D;
+    color: #FFFFFF;
 }
