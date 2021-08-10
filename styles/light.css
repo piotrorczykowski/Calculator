@@ -7,13 +7,12 @@
 
 body
 {
-    background-color: #6CBA34;
+    background-color: #69A2E2;
 }
 
 #title
 {
     color: #FBFDF9;
-    text-shadow: -2px 0 #3E6B1E, 0 2px #3E6B1E, 2px 0 #3E6B1E, 0 -2px #3E6B1E;
 }
 
 #container
@@ -40,9 +39,7 @@ input
     padding: 15px;
     background-color: #FBFDF9;
     border-radius: 5px;
-    border: solid 3px #3E6B1E;
     font-size: 20px;
-    font-weight: 600;
 }
 
 input[type="text"]
@@ -52,7 +49,25 @@ input[type="text"]
     cursor: default;
 }
 
+input[type="button"]
+{
+    transition: 0.2s;
+}
+
+input[type="button"]:hover
+{
+    cursor: pointer;
+    background-color: #143D6B;
+    color: #FBFDF9;
+}
+
 input[type="text"]:focus
 {
     outline: none;
+}
+
+input[value="C"]
+{
+    background-color: #0A1F37;
+    color: #FBFDF9;
 }
