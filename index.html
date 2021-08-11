@@ -5,37 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="/styles/light.css" id="theme">
+    <script type="text/javascript" src="/scripts/script.js"></script>
 </head>
 <body>
     <div id="container">
         <h1 id="title">Calculator</h1>
         <div id="first-row">
             <input type="text" id="result" placeholder="Result" readonly>
-            <input type="button" name="C" value="C">
+            <input type="button" name="C" value="C" id="C" onclick="enteredValue('C')">
         </div>
         <div id="second-row">
-            <input type="button" name="1" value="1">
-            <input type="button" name="2" value="2">
-            <input type="button" name="3" value="3">
-            <input type="button" name="+" value="+">
+            <input type="button" name="1" value="1" id="1" onclick="enteredValue(1)">
+            <input type="button" name="2" value="2" id="2" onclick="enteredValue(2)">
+            <input type="button" name="3" value="3" id="3" onclick="enteredValue(3)">
+            <input type="button" name="+" value="+" id="+" onclick="enteredValue('+')">
         </div>
         <div id="third-row">
-            <input type="button" name="4" value="4">
-            <input type="button" name="5" value="5">
-            <input type="button" name="6" value="6">
-            <input type="button" name="-" value="-">
+            <input type="button" name="4" value="4" id="4" onclick="enteredValue(4)">
+            <input type="button" name="5" value="5" id="5" onclick="enteredValue(5)">
+            <input type="button" name="6" value="6" id="6" onclick="enteredValue(6)">
+            <input type="button" name="-" value="-" id="-" onclick="enteredValue('-')">
         </div>
         <div id="fourth-row">
-            <input type="button" name="7" value="7">
-            <input type="button" name="8" value="8">
-            <input type="button" name="9" value="9">
-            <input type="button" name="x" value="x">
+            <input type="button" name="7" value="7" id="7" onclick="enteredValue(7)">
+            <input type="button" name="8" value="8" id="8" onclick="enteredValue(8)">
+            <input type="button" name="9" value="9" id="9" onclick="enteredValue(9)">
+            <input type="button" name="x" value="x" id="x" onclick="enteredValue(x)">
         </div>
         <div id="fifth-row">
-            <input type="button" name="/" value="/">
-            <input type="button" name="0" value="0">
-            <input type="button" name="." value=".">
-            <input type="button" name="=" value="=">
+            <input type="button" name="/" value="/" id="/" onclick="enteredValue('/')">
+            <input type="button" name="0" value="0" id="0" onclick="enteredValue(0)">
+            <input type="button" name="." value="." id="." onclick="enteredValue('.')">
+            <input type="button" name="=" value="=" id="=" onclick="enteredValue('=')">
         </div>
     </div>
 </body>
