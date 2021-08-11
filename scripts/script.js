@@ -1,5 +1,12 @@
 function enteredValue(id)
 {
     var value = document.getElementById(id).value;
-    alert(value);
+    var result = document.getElementById('result');
+
+    result.value += value;
+}
+
+function clearScreen()
+{
+    document.getElementById('result').value = ""
 }
