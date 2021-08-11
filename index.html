@@ -11,7 +11,7 @@
     <div id="container">
         <h1 id="title">Calculator</h1>
         <div id="first-row">
-            <input type="text" id="result" placeholder="Result" readonly>
+            <input type="text" value="" id="result" placeholder="Result" readonly>
             <input type="button" name="C" value="C" id="C" onclick="clearScreen()">
         </div>
         <div id="second-row">
@@ -30,13 +30,13 @@
             <input type="button" name="7" value="7" id="7" onclick="enteredValue(7)">
             <input type="button" name="8" value="8" id="8" onclick="enteredValue(8)">
             <input type="button" name="9" value="9" id="9" onclick="enteredValue(9)">
-            <input type="button" name="x" value="x" id="x" onclick="enteredValue(x)">
+            <input type="button" name="*" value="*" id="*" onclick="enteredValue('*')">
         </div>
         <div id="fifth-row">
             <input type="button" name="/" value="/" id="/" onclick="enteredValue('/')">
             <input type="button" name="0" value="0" id="0" onclick="enteredValue(0)">
             <input type="button" name="." value="." id="." onclick="enteredValue('.')">
-            <input type="button" name="=" value="=" id="=" onclick="enteredValue('=')">
+            <input type="button" name="=" value="=" id="=" onclick="result.value = eval(result.value)">
         </div>
     </div>
 </body>
