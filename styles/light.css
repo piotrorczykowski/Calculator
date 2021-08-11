@@ -72,3 +72,21 @@ input[value="C"]
     background-color: #07305F;
     color: #FFFFFF;
 }
+
+#changeTheme
+{
+    background-color: #07305F;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    padding: 6px;
+    margin-left: -212px;
+    transition: 0.2s;
+}
+
+#changeTheme:hover
+{
+    cursor: pointer;
+    background-color: #0E4481;
+}
